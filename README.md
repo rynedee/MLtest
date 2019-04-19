@@ -1,6 +1,25 @@
 # MLtest
 Project
 
+18.4.19 -- The website should be in a working stage at this point. I've struggled with creating a RESTful API to serve my RSS needs for the past five days, that is a nut I've been unable to crack. I was able to serve up some RSS items by utilzing a script from bloople.net. That particular issue will have to wait until I expand my knowledgebase a bit wider.
+
+---
+HTML
+---
+
+* Added bus.html, sports.html and life.html.
+* Added various rss feeds to the aforementioned files.
+* Completed additional formatting
+
+---
+Python
+---
+
+Hangman.py should be properly formatted for it's window size.
+
+---
+---
+
 11.4.19 -- This is a two-part project to show a basic understanding of HTML and Python while familarizing myself with the use of essential collaborative tools such as repl.it and GitHub.
 
 ---
