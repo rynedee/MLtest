@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>The Watts Times</title>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700" rel="stylesheet">
+<script src="https://apis.google.com/js/client.js"></script>
+<style>
+
+
+.container {
+	display: flex;
+	position: relative;
+	max-width: 1000px, auto;
+	max-height: 760px, auto;
+	background-color: #f6f6f7;
+}
+
+.masthead {
+	width: 100%;
+	height: 120px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	order: 1;
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 96px;
+	background-color: #f6f6f7;
+	color: #0e305d;
+}
+
+.navbar {
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	top: 120px;
+	left: 0px;
+	order: 2;
+	box-sizing: border-box;
+	overflow: hidden;
+	background-color: #0e305d;
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+.otscolumn {
+	position: absolute;
+	top: 160px;
+	left: 0px;
+	width: 25%;
+	height: 620px;
+	background-color: #f6f6f7;
+	order: 4;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.mainarticle {
+	position: absolute;
+	top: 160px;
+	left: 25%;
+	width: 75%;
+	height: 420px;
+	background-color: #f6f6f7;
+	order: 3;
+	padding: 10px;
+	box-sizing: border-box;
+	column-count: 3;
+	column-fill: balance;
+	overflow: hidden;
+}
+
+.sec1 {
+	position: absolute;
+	top: 580px;
+	left: 25%;
+	order: 5;
+	width: 25%;
+	height: 200px;
+	background-color: #f6f6f7;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.sec2 {
+	position: absolute;
+	top: 580px;
+	left: 50%;
+	order: 6;
+	width: 25%;
+	height: 200px;
+	background-color: #f6f6f7;
+	padding: 10px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.sec3 {
+	position: absolute;
+	top: 580px;
+	left: 75%;
+	order: 7;
+	width: 25%;
+	height: 200px;
+	background-color: #f6f6f7;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	align-items: center;
+	padding: 5px;
+	color: white;
+	text-align: center;
+	justify-content: center;
+	padding: 10px 15px;
+	text-decoration: none;
+	font-size: 16px;
+	height: 40px;
+}
+
+.navbar a:hover {
+	background-color: #f6f6f7;
+	color: black;
+}
+
+.navbar a.active {
+	background-color: #7e1918;
+	color: white;
+}
+
+a {
+	color: #0e305d;
+}
+
+h1.a {
+	column-span: all;
+	font-family:  'Josefin Sans', sans-serif;
+}
+
+h2 {
+	justify-content: flex-start;
+}
+
+h4.feed-item-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+}
+
+h4 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 12px;
+}
+
+p.feed-item-desc {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 12px;
+}
+
+p {
+	text-indent: 2em;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14px;
+}
+
+p.name{
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+p.tag {
+	text-indent: 2em;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 12px;
+}
+
+</style>
+
+
+</head>
+<body class="container">
+	<div class="masthead">The Watts Times</div>
+	<div class="navbar">
+		<a href="index.html">Front Page</a>
+		<a href="bus.html">Business</a>
+		<a class="active" href="sports.html">Sports</a>
+		<a href="life.html">Life</a>
+	</div>
+	<div class="otscolumn"><h4>Top Headline from BBC News</h4>
+		<script src="https://rss.bloople.net/?url=http%3A%2F%2Ffeeds.bbci.co.uk%2Fnews%2Fworld%2Frss.xml&detail=-1&limit=1&showtitle=false&type=js"></script>
+		<h4>Classic Hangman</h4><iframe height="448px" width="100%" src="https://repl.it/@rynedee/Hangman?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+	</div>
+	<div class="mainarticle"><h1 class="a">From Various Boards to Books and Bikes with Everything Inbetween</h1>
+		<p>My life outside of the work environment is fairly typical. I spend time with family and friends, enjoying riding around my community and am an avid gamer (be it backyard, board, card, or video, I do no discriminate). I also tend to spend an inordinate amount of time reading everthing from the local newspaper to global websites.</p>
+
+		<p>Like most kids my bike was my main mode of transportation growing up. Most of my youth was spent in small rural towns so it afforded me the opportunity to enjoy long, uninterrupted rides. So my love of bike riding was planted long ago, which is good since it's the best form of exercise for my catastrophically bad knees.</p>
+
+		<p>After a particularly bad winter for my knees I bought a new bike. It quickly went from a form of recreation to my preferred option for travel. Within a few months I was riding over 300 miles a month and pedaled just shy of 4,000 miles the first year. I now spend more on my bike accessories than I do car accessories, I can safely say my bike has more smart technology than my car.</p>
+
+		<p>Another way I like to spend my free time is by gaming, whether it be the latest AAA title to hit the shelves (Borderlands 3 <i>will</i> be my next obsession) or a perfectly executed card-driven board game I'm in. The game I've played the most the past few years has been <i>Twilight Struggle</i>, a board game that recreates the Cold War (it is a cross between Risk and chess, with a healthy side of paranoia).</p> 
+
+		<p>It is a tense experience that is tough to beat, in fact a friend and I have played the game well over 500 times. We regularly find ourselves talking about the different situations that took place in the last game (or earlier in the current game), the game has a way of pulling you into the theme as you try to tease out a bit of info to use next time.</p>
+
+		<p>Another hobby of mine is being a sound engineer for some local musicains. I've run the board at a few shows over the years and have produced several music videos for friends of the band. I can also be found out on the links, although not nearly as often as I would like (the lament of every golfer).</p>
+
+		<i><p class="tag">James is the founding editor of </i>The Watts Times<i>. He is fanatical about the Mavs, Cubs, Rangers and Irish as evidenced by his email rynedee@gmail.com. All links on this page are copyright of their respective owners.</p></i>
+
+
+	</div>
+	<div class="sec1"><h4>Mavs Headline from Star-Telegram.com</h4>
+		<script src="https://rss.bloople.net/?url=http%3A%2F%2Fwww.star-telegram.com%2Fsports%2Fnba%2Fdallas-mavericks%2F%3FwidgetName%3Drssfeed%26widgetContentId%3D714290%26getXmlFeed%3Dtrue&detail=35&limit=1&showtitle=false&type=js"></script>
+	</div>
+	<div class="sec2"><h4>Rangers Headline from MLB.com</h4>
+		<script src="https://rss.bloople.net/?url=https%3A%2F%2Fwww.mlb.com%2Frangers%2Ffeeds%2Fnews%2Frss.xml&detail=35&limit=1&showtitle=false&type=js"></script>
+	</div>
+	<div class="sec3"><h4>Cubs Headline from MLB.com</h4>
+		<script src="https://rss.bloople.net/?url=https%3A%2F%2Fwww.mlb.com%2Fcubs%2Ffeeds%2Fnews%2Frss.xml&detail=35&limit=1&showtitle=false&type=js"></script>
+	</div>
+	
+
+</body>
+</html>
