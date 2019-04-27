@@ -1,6 +1,25 @@
 # MLtest
 Project
 
+27.4.19 -- I've updated the Hangman.py to include a cheat code. Now when you type in a special character the game will give you a list of words that match what has already been guessed (or entire possible solutions list if done at the beginning of the game). 
+
+My difficulty with this aspect of the project was two-fold. First, I had a difficult time figuring out the logic of what I needed to do as I kept getting myself into strange boundry-case issues (basically I was makiing it WAAAY more difficult than it needed to be). My second issue was getting my code deployed. I had it working with no issues in my test environment, taking care to mirror the same terms I used in hangman.py but it alternated between buggy (only gave one possible solution, the secret word) or was broken (function at line x doesn't want to work for some esoteric reason). It took nearly as long to get it implemented within hangman.py as it took to figure out the code.
+
+---
+HTML
+---
+
+Added a word limit to the sec3 RSS feed. I've discovered that section gets pretty close to overflowing based on the story CNN is running at the time. I'm also going to add some links on the navbar to my GitHub and repl.it pages. These should be floated to the right of the menu bar.
+
+---
+Python
+---
+
+As stated above, the major update was the addition of a cheat code within Hangman.py. I'm thinking of adding a qualifer to the cheat in an effort to limit the amount of possible words that are shown (one cheat code response returned a list of over 10k words). It will take some time to discover the point that list becomes managable but right now it appears that 3 letters are enough to substantially pare down the possible words list.
+
+---
+---
+
 18.4.19 -- The website should be in a working stage at this point. I've struggled with creating a RESTful API to serve my RSS needs for the past five days, that is a nut I've been unable to crack. I was able to serve up some RSS items by utilzing a script from bloople.net. That particular issue will have to wait until I expand my knowledgebase a bit wider.
 
 ---
