@@ -1,6 +1,27 @@
 # MLtest
 Project
 
+1.5.19 -- I updated the files to include links to my repositories. The issue I've been fighting is getting the changes to appear in a web browser. Locally the files render correctly, however when I attempt to view them via the modlabproject.appspot.com URL I see the un-updated files. In the past it has seemed as if it can take some time for an update to 'work its way through the system', but that hasn't worked this time. Clearing my cache on my local machine has not resolved the issue either. At this point it feels like there's some option with Google Cloud that I'm missing, not sure what I did but I was able to get two of the pages to render the updates for a couple of clicks before they went away.
+
+---
+HTML
+---
+
+No updates to the HTML as of now. The time spent working on that has been used to figure out why my update is not being served. I can see the files have been updated on GitHub, and as far as I know the Google Cloud web host is using the GitHub files. I feel as I was able to make some last minute corrections via the Sublime app on files when this was all set up. 
+
+Some of my issues my be from the fact that I have some of these files open in three or four different places (for instance GitHub desktop was just found hiding in full-screen mode), so a quick restart to maybe help reset some bits to go along with some spring cleaning (need to delete a Bootcamp partition as well run a few updates).
+
+---
+Python
+---
+
+Wrote a two-player Tic-Tac-Toe game on Monday 29 April. That code is available on my repl.it page (www.repl.it/@rynedee) for now, ultimately it will end up as an embed on the Sports page once I figure out my Google Cloud issue(s). My next project will be an assignment from the Open Courseware class that involves creating a 'Scrabble'/'Words with Friends' clone.
+
+Creating an AI for Tic-Tac-Toe will be something that I work on on the side. From my perspective it seems like a daunting task but it should be fairly easy, or perhaps straight forward is better. I have some ideas floating around but board awareness is where I'm at a crossroads. It seems knowing the state of the gameboard is tantamount to making informed decisions otherwise I'd need to code in every possible game state which is not happening. I maybe on my way with how I set up my winning conditions but only further experimentation will tell.
+
+---
+---
+
 27.4.19 -- I've updated the Hangman.py to include a cheat code. Now when you type in a special character the game will give you a list of words that match what has already been guessed (or entire possible solutions list if done at the beginning of the game). 
 
 My difficulty with this aspect of the project was two-fold. First, I had a difficult time figuring out the logic of what I needed to do as I kept getting myself into strange boundry-case issues (basically I was makiing it WAAAY more difficult than it needed to be). My second issue was getting my code deployed. I had it working with no issues in my test environment, taking care to mirror the same terms I used in hangman.py but it alternated between buggy (only gave one possible solution, the secret word) or was broken (function at line x doesn't want to work for some esoteric reason). It took nearly as long to get it implemented within hangman.py as it took to figure out the code.
