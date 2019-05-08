@@ -1,6 +1,25 @@
 # MLtest
 Project
 
+8.5.19 -- Finally was able to get my updates to appear. For the past two weeks I've been attempting to solve my issue via the Google Cloud shell. I discovered this morning that I needed to be doing some stuff in my Mac terminal. Once I got that figured out I was golden.
+
+I'm now able to be a bit more proactive in my updates. During my two-week torment I was able to code together a few more games, one of which I've already discussed. I will be embedding those Python apps in Sports and Life.
+
+---
+HTML
+---
+
+Solved the issue that's been the bane of my existence for the past two weeks. Now that I can push out updates I expect some futher refinements in the overall look. I'll post more when I have a better idea of what I'm thinking, right now I'm just excitied I can update now.
+
+---
+Python
+---
+
+Created a word jumble game as part of the MIT OCW class. It gives the player some options on how many rounds to play and with how many letters. I think it turned out well.
+
+---
+---
+
 1.5.19 -- I updated the files to include links to my repositories. The issue I've been fighting is getting the changes to appear in a web browser. Locally the files render correctly, however when I attempt to view them via the modlabproject.appspot.com URL I see the un-updated files. In the past it has seemed as if it can take some time for an update to 'work its way through the system', but that hasn't worked this time. Clearing my cache on my local machine has not resolved the issue either. At this point it feels like there's some option with Google Cloud that I'm missing, not sure what I did but I was able to get two of the pages to render the updates for a couple of clicks before they went away.
 
 ---
